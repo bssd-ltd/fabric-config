@@ -1,8 +1,8 @@
 package fabapi
 
 import (
-	"github.com/tuyendev/fabric-config/internal/configtx"
-	"github.com/tuyendev/fabric-config/pkg/archetype"
+	"github.com/hyperledger/fabric-config/configtx"
+	"github.com/hyperledger/fabric-config/pkg/archetype"
 )
 
 func getStandardOrderingCapabilities() []string {

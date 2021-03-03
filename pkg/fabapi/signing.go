@@ -3,9 +3,9 @@ package fabapi
 import (
 	"fmt"
 	"github.com/golang/protobuf/proto"
+	"github.com/hyperledger/fabric-config/configtx"
+	"github.com/hyperledger/fabric-config/pkg/archetype"
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/tuyendev/fabric-config/internal/configtx"
-	"github.com/tuyendev/fabric-config/pkg/archetype"
 )
 
 func CreateSignedConfigEnvelope(orgs []archetype.Organization, marshaledUpdate []byte) ([]byte, error) {

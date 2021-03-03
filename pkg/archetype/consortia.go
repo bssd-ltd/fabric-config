@@ -1,7 +1,7 @@
 package archetype
 
 import (
-	"github.com/tuyendev/fabric-config/internal/configtx"
+	"github.com/hyperledger/fabric-config/configtx"
 )
 
 type ConsortiaOrganization struct {

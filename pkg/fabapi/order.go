@@ -3,11 +3,11 @@ package fabapi
 import (
 	"github.com/getlantern/deepcopy"
 	"github.com/golang/protobuf/proto"
+	"github.com/hyperledger/fabric-config/configtx"
+	"github.com/hyperledger/fabric-config/pkg/archetype"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric/common/channelconfig"
 	"github.com/pkg/errors"
-	"github.com/tuyendev/fabric-config/internal/configtx"
-	"github.com/tuyendev/fabric-config/pkg/archetype"
 )
 
 func CalculateOrdererConfigAfterAdd(orderer archetype.Orderer, addingOrg archetype.OrdererOrganization, latestConfig *cb.ConfigGroup) ([]byte, error) {

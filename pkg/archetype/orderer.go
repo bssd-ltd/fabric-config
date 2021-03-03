@@ -1,10 +1,10 @@
 package archetype
 
 import (
-	"github.com/tuyendev/fabric-config/internal/configtx"
-	orderertx "github.com/tuyendev/fabric-config/internal/configtx/orderer"
-	"github.com/tuyendev/fabric-config/pkg/util/certreader"
-	"github.com/tuyendev/fabric-config/pkg/util/strex"
+	"github.com/hyperledger/fabric-config/configtx"
+	orderertx "github.com/hyperledger/fabric-config/configtx/orderer"
+	"github.com/hyperledger/fabric-config/pkg/util/certreader"
+	"github.com/hyperledger/fabric-config/pkg/util/strex"
 	"strconv"
 	"time"
 )

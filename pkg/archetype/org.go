@@ -2,8 +2,8 @@ package archetype
 
 import (
 	"crypto/x509"
-	"github.com/tuyendev/fabric-config/internal/configtx"
-	"github.com/tuyendev/fabric-config/internal/configtx/membership"
+	"github.com/hyperledger/fabric-config/configtx"
+	"github.com/hyperledger/fabric-config/configtx/membership"
 	"github.com/tuyendev/fabric-config/pkg/util/certreader"
 	"github.com/tuyendev/fabric-config/pkg/util/strex"
 	"path/filepath"
